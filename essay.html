@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Essay</title>
+</head>
+<body>
+    <form class="form">
+    <div class="title">Welcome!<br><span>start my essay</span></div>
+    <input class="input" name="Your Name" placeholder="Your Name" type="Your Name">
+    <input class="input" name="password" placeholder="Password" type="password">
+    <div class="checkbox">
+      <label for="Hint">Hint to the password: Baurzhan Agai's high school graduation</label>
+  </div>
+  <button class="button-confirm">My essay</button>
+</form>
+<script>
+    const form = document.querySelector('.form');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const name = form.elements['Your Name'].value;
+        const password = form.elements['password'].value;
+
+        if (password === '2009' && name === 'Aziz') {
+            window.location.href = 'real_essay.html';
+        } else {
+            alert('Incorrect name or password. Please try again.');
+        }
+    });
+</script>
+</body>
+</html>
