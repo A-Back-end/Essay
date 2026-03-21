@@ -1,17 +1,31 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/",
-      "destination": "/essay.html"
-    },
-    {
-      "source": "/real_essay.html",
-      "destination": "/public/real_essay.html"
-    },
-    {
-      "source": "/style-1.css",
-      "destination": "/public/style-1.css"
+      "src": "essay.html",
+      "use": "@vercel/static"
     }
   ],
-  "staticDirectories": ["public"]
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/essay.html"
+    },
+    {
+      "src": "/real_essay.html",
+      "dest": "/public/real_essay.html"
+    },
+    {
+      "src": "/style-1.css",
+      "dest": "/public/style-1.css"
+    },
+    {
+      "src": "/style.css",
+      "dest": "/style.css"
+    },
+    {
+      "src": "/script.js",
+      "dest": "/script.js"
+    }
+  ]
 }
