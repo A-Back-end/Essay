@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/essay.html"
+    },
+    {
+      "source": "/real_essay.html",
+      "destination": "/public/real_essay.html"
+    },
+    {
+      "source": "/style-1.css",
+      "destination": "/public/style-1.css"
+    }
+  ],
+  "staticDirectories": ["public"]
+}
