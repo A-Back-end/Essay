@@ -5,7 +5,7 @@ const form = document.querySelector('.form');
         const password = form.elements['password'].value;
 
         if (password === '2009' && name === 'Aziz') {
-            window.location.href = 'real_essay.html';
+            window.location.href = '/real_essay.html';
         } else {
             alert('Incorrect name or password. Please try again.');
         }
