@@ -24,5 +24,6 @@
   background-color: var(--bg-color);
   box-shadow: 4px 4px var(--main-color);
   font-size: 15px;
+  padding: 10px;
   text-decoration: none;
 }
