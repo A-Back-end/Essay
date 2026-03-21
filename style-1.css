@@ -18,3 +18,9 @@
     position: relative;
     left: 25%;
 }
+
+.a-1{
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+}
