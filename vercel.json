@@ -10,22 +10,6 @@
     {
       "src": "/",
       "dest": "/essay.html"
-    },
-    {
-      "src": "/real_essay.html",
-      "dest": "/real_essay.html"
-    },
-    {
-      "src": "/style-1.css",
-      "dest": "/style-1.css"
-    },
-    {
-      "src": "/style.css",
-      "dest": "/style.css"
-    },
-    {
-      "src": "/script.js",
-      "dest": "/script.js"
     }
   ]
 }
