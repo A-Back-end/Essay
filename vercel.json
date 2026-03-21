@@ -13,11 +13,11 @@
     },
     {
       "src": "/real_essay.html",
-      "dest": "/public/real_essay.html"
+      "dest": "/real_essay.html"
     },
     {
       "src": "/style-1.css",
-      "dest": "/public/style-1.css"
+      "dest": "/style-1.css"
     },
     {
       "src": "/style.css",

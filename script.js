@@ -10,7 +10,7 @@ const form = document.querySelector('.form');
             if (password === '2009' && name === 'Aziz') {
                 // Handle different deployment environments
                 const target = (window.location.protocol === 'file:')
-                    ? 'public/real_essay.html'
+                    ? 'real_essay.html'
                     : '/real_essay.html';
                 window.location.href = target;
             } else {
